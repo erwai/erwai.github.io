@@ -24,6 +24,6 @@ after_script:
 
 branches:
   only:
-    - contents
-  except:
-    - master
+  - contents
+  except: 
+  - master
