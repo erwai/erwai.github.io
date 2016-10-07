@@ -25,6 +25,7 @@ after_script:
 branches:
   only:
     - contents
+
 env:
  global:
    - GH_REF: github.com/erwai/erwai.github.io.git
