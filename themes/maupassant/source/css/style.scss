@@ -1813,6 +1813,16 @@ table {
   }
 }
 
+.article-share-plurk {
+  @extend .article-share-element;
+  &:before {
+    content: "\f0c1";
+  }
+  &:hover {
+    background: #38ad5a;
+  }
+}
+
 /* search result*/
 ul.search-result-list {
   padding-left: 10px;
