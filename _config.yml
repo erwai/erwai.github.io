@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: 二歪歪歪
+subtitle: 布袋戲同人文、同人MV、吐槽、劇評之堆積處。
+description: 二歪的布袋戲部落格
+author: Erwai 二歪
+language: zh-TW
+timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://erwai.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
