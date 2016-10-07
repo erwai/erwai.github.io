@@ -1,0 +1,30 @@
+language: node_js
+
+node_js: stable
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install
+
+script:
+  - hexo cl
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "erwai"
+  - git config user.email "jean8389she@gmail.com"
+  - git add .
+  - git commit -m "site updated"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+
+branches:
+  only:
+    - contents
+env:
+ global:
+   - GH_REF: github.com/erwai/erwai.github.io.git
