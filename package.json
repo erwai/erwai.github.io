@@ -1,7 +1,30 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "erwai.github.io",
+  "description": "二歪/慕羽的部落格。布袋戲同人文、同人MV、吐槽、劇評之堆積處。",
+  "version": "0.1.0",
   "private": true,
+  "author": "二歪/慕羽 Erwai",
+  "license" : "All Rights Reserved",
+  "scripts": {
+    "start": "hexo serve --drafts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwai/erwai.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erwai/erwai.github.io/issues"
+  },
+  "homepage": "https://erwai.github.io/about/",
+  "keywords": [
+    "blog",
+    "布袋戲",
+    "部落格",
+    "霹靂",
+    "霹靂布袋戲",
+    "東離劍遊紀",
+    "同人"
+  ],
   "hexo": {
     "version": "3.2.2"
   },
