@@ -38,8 +38,6 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
 links:
   - title: 二歪的噗浪
     url: https://www.plurk.com/erwai
-  - title: 二歪的微博
-    url: http://www.weibo.com/u/5411570320
   - title: 二歪的YouTube頻道
     url: https://www.youtube.com/channel/UCijr5pGHpl0Ly-DA-rZ5a0A
 
